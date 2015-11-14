@@ -10,3 +10,5 @@ out of it with a TL;DR attitude.
 
 Even though I had my tester do really simple things, it was interesting and really valuable to get that input. I 
 can see how this would be a really vital part of any design process.
+
+Photos here: https://drive.google.com/folderview?id=0B1pPFfJPw6LtYkRLUG1XamxmQ28&usp=sharing
