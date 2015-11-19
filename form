@@ -128,3 +128,124 @@ With Accessibility practice:
 </select>
 </body>
 </html>
+
+Usability changes to form:
+HTML
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Contact Form</title>
+  <link rel="stylesheet" media="screen" href="styles.css">
+</head>
+
+<body class="body">
+  <form class="sign_up_form" action="" method="post" name="sign_up_form">
+  </form>
+  <img class="logo" src="https://pixabay.com/static/uploads/photo/2014/12/21/23/55/bottle-576342_640.png" alt="saucelogo" style="width:200px;height:228px;">
+  <ul>
+    <li>
+      <h2>Subscribe to Sauce Lovers Mag</h2>
+      <h4> Keep Up To Date With All Your Sauce Connoisseur Needs!</h4>
+      <legend class="practical">Details for Magazine Delivery</legend>
+      <span class="required_notification">* Denotes Required Field</span>
+    </li>
+    <li class="fname">
+      <label for="name">First Name:*</label>
+      <input type="text" ID="FirstName" name="first_name" />
+    </li>
+    <li class="lname">
+      <label for="lastname">Last Name:*</label>
+      <input type="text" ID=lastname name="last_name" />
+    </li>
+    <li class="email">
+      <label for="email">Email Address:*</label>
+      <input type="text" ID="EmailAdress" name="email" placeholder="john_doe@example.com">
+      <span class="form_hint">Proper format "name@something.com"</span>
+    </li>
+    <li class="mobile">
+      <label for="MobileNumber">Mobile Number:*</label>
+      <input type="tel" ID="MobileNumber" name="cellphone" placeholder="e.g. 022 123 1234">
+      <li class="street">
+        <label for="StreetAddress" name="street_address">Street Address:</label>
+        <textarea name="street_address" ID="StreetAddress" rows="10" cols="50" placeholder="e.g. 12 Home St, Suburb, City, Country"></textarea>
+      </li>
+      <ul>
+
+
+        <legend>Info For Free Giveaway</legend>
+
+        <label class="giveawayinfo" for="FavSauce">What is your favourite sauce?</label>
+        <select id="favouritesauce " Name="select ">
+          <optgroup label="Hot Sauce ">
+            <option value="1 ">KaitaiaFire</option>
+            <option value="2 ">Cholula</option>
+            <option value="3 ">Siracha</option>
+            <optgroup label="Brown Sauce ">
+              <option value="3 ">Worcestire</option>
+              <option value="3 ">Tamari</option>
+        </select>
+        <input class="tandc" " type="checkbox " ID="terms&Conditions " name="terms&conditions ">
+    <label for="Terms&Conditions ">Tick the Box to Accept Terms and Conditions:*</label>
+ <button class="submit " type="submit ">Subscribe to Sauce Lovers!</button>                  
+                     
+                                            
+</body>
+
+</html>
+
+CSS:
+.logo{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 50px; color: red ; 
+  text-decoration: underline; 
+  width: 900px;
+  border: 1px solid blue;
+  text-align: center;
+}
+h4 {
+  color: red;
+  font-style:italic;
+}
+.body {
+   border-style:solid;
+   border-width:.5px;
+}
+.fname {
+  margin: 5px;
+  padding: 5px;
+}
+.lname {
+  margin: 5px;
+  padding: 5px;
+}
+.email{
+  margin: 5px;
+  padding: 5px;
+}
+.mobile{
+  margin: 5px;
+  padding: 5px;
+}
+.street {
+  margin: 5px;
+  padding: 5px;
+}
+.givawayinfo {
+  margin: 5px;
+  padding: 5px;
+}
+.tandc {
+  margin: 5px;
+  padding: 5px;
+}
+.submit  {
+  margin: 5px;
+  padding: 5px;
+}
